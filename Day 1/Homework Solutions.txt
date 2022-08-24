@@ -1,0 +1,62 @@
+Book: The Swift Programming Language
+https://docs.swift.org/swift-book/
+
+1. Read: Control Transfer Statement - Control Flow Section
+
+2. Read: API Availability - Control Flow Section
+
+3. Read: Recursive Enumerations -
+
+4. Read: Subscript -
+
+5. Read: Convenience initializer - Initialization Section
+
+6. Read: Deinitialization -
+
+7. Read: Optional Chaining -
+
+9. Read: Downcasting - Type Casting Section
+
+10. Read. Delegation - Protocols Section
+
+10. Read: Optional Protocol Requirements - Protocols Section
+
+11. Read: Automatic Reference Counting -
+
+
+
+## Questions:
+What is the difference between var and let? Var is for mutable data and let is for constant data that is immutable.
+
+What is an optional? An optional is a variable that may or may not have a value. It contains NIL and a question mark is used at the end to declare the variable optional.
+
+
+What is optional chaining vs optional binding? Optional binding allows you to take either a value of some or none. Optional chaining is the process of querying and calling properties and methods on a variable that may be nil.
+
+
+What are the different ways to unwrap an optional? How do they work? Are they safe?
+
+
+Safe unwrapping using an if let statement which will not throw an exception . It allows you to determine the value of the variable.
+
+
+What is a closure? A closure is an anonymous block of code that can store valuable data without a function call.
+
+
+What is the difference between a class and a struct? Struct is a value type and class is a reference type.
+
+
+
+What is the syntax '??' do? A nil-coalescing operator unwraps an optional if it has a value
+
+What is a tuple? - A collection of values of different types.
+
+What is Any vs AnyObject? A dictionary using any object s the value type is convertible to NSDictionary , but one using Any is not. 
+
+What is a protocol ol? Protocol oriented programming
+
+What is Delegation- A design pattern 
+
+
+Read this article
+https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes
